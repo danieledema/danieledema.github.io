@@ -5,19 +5,19 @@ theme = 'poison'
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
 [params]
-  description = 'Daniele De Martini'
+  description = 'Roboticist, Machine Learning Engineer, and Researcher'
   brand = 'Daniele De Martini'
   brand_image = "/images/profile.jpg"    # path to the image shown in the sidebar
   favicon = "/images/favicon.png"
 
-  front_page_content = ["/welcome/"]
+  front_page_content = ["myself"]
 
   hideToc = true
 
   menu = [
-    {Name = "Home", URL = "/welcome/", HasChildren = false},
-    {Name = "Research", URL = "/research/", HasChildren = false},
-    {Name = "Publications", URL = "/publications/", HasChildren = false},
+    {Name = "Home", URL = "/myself/", HasChildren = false},
+    {Name = "Research", URL = "/research/"},
+    {Name = "Publications", URL = "/publications/", Limit = 3, hasChildren = true},
     {Name = "Contacts", URL = "/contacts/", HasChildren = false},
   ]
 
