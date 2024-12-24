@@ -1,0 +1,30 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Daniele De Martini'
+theme = 'poison'
+pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
+
+[params]
+  description = 'Daniele De Martini'
+  brand = 'Daniele De Martini'
+  brand_image = "/images/profile.jpg"    # path to the image shown in the sidebar
+  favicon = "/images/favicon.png"
+
+  front_page_content = ["welcome"]
+
+  hideToc = true
+
+  menu = [
+    {Name = "Home", URL = "/welcome/", HasChildren = false},
+    {Name = "Research", URL = "/research/", HasChildren = false},
+    {Name = "Publications", URL = "/publications/", HasChildren = false},
+    {Name = "Contacts", URL = "/contacts/", HasChildren = false},
+  ]
+
+  email_url = "mailto://daniele@robots.ox.ac.uk"
+  linkedin_url = "https://www.linkedin.com/in/daniele-de-martini-b1716088/?originalSubdomain=it"
+  github_url = "https://github.com/danieledema"
+  x_url = "https://x.com/d_d_martini"
+  
+  rss_icon = false
+
