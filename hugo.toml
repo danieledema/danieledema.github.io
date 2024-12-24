@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://danieledema.github.io'
 languageCode = 'en-us'
 title = 'Daniele De Martini'
 theme = 'poison'
@@ -10,7 +10,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
   brand_image = "/images/profile.jpg"    # path to the image shown in the sidebar
   favicon = "/images/favicon.png"
 
-  front_page_content = ["welcome"]
+  front_page_content = ["/welcome/"]
 
   hideToc = true
 
