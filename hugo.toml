@@ -4,6 +4,9 @@ title = 'Daniele De Martini'
 theme = 'poison'
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   description = 'Roboticist, Machine Learning Engineer, and Researcher'
   brand = 'Daniele De Martini'

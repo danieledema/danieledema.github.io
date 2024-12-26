@@ -5,12 +5,22 @@ layout = 'single'
 title = 'Contacts'
 +++
 
-I am a Postdoctoral Research Assistant (PDRA) at the University of Oxford and a Junior Research Fellow at Kellogg College. I work with Prof. Paul Newman in the Mobile Robotics Group (MRG), part of the Oxford Robotics Institute (ORI).
+## Email
+To contact me, please use the email [`daniele@robots.ox.ac.uk`](mailto:daniele@robots.ox.ac.uk).
 
-I joined MRG after a DPhil in Engineering Science at the Università degli Studi di Pavia under the supervision of Prof. Tullio Facchinetti. During my doctorate studies, I investigated the application of real-time sscheduling algorithms to energy management of electromechanical devices with the goal of reducing the power consumption.
+If you are inquiring about a visiting MSc/PhD/PDRA position, please include the tag `[Visiting Application]` in the subject line of your email. For inquiries regarding a PhD application, please use the tag `[PhD Application]`.
 
-Before that, I had my BSc at the Università degli Studi di Pavia and my MSc at the Politecnico di Torino where I studied Mechanical and Mechatronics Engineering respectively.
 
-I have a passion for cyber-physical systems, among which robots shine, and love working on making robots autonomously operate from the ground up. In doing so, I am more and more involved in the machine-learning field and believe that learning and adaptation is paramount for robot autonomy.
+## Address
 
-I hope that my work will enable robots to be widely adopted in a variety of applications, from industrial and business to domestic environments, helping the people in their day-to-day tasks.
+My office is located within the [Oxford Robotics Institute](https://ori.ox.ac.uk/), on the first floor.
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d582.1860329716046!2d-1.2612995308412456!3d51.760812496988045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a78be62a49%3A0xb2fc34cfc13cc125!2sOxford%20Robotics%20Institute!5e0!3m2!1sen!2sit!4v1735211073395!5m2!1sen!2sit"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
