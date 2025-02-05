@@ -1,5 +1,5 @@
 +++
-date = '2024-05-14T12:07:04Z'
+date = '2024-10-14T12:07:04Z'
 draft = false
 title = 'NeuralFloors: Conditional street-level scene generation from BEV semantic maps via Neural Fields"
 tags = ["journal", "nerf", "geenrativeai"]
