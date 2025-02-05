@@ -1,7 +1,7 @@
 +++
 date = '2024-10-14T12:07:04Z'
 draft = false
-title = 'NeuralFloors: Conditional street-level scene generation from BEV semantic maps via Neural Fields'
+title = 'NeuralFloors++: Consistent Street-Level Scene Generation From BEV Semantic Maps'
 tags = ["conference", "nerf", "generative"]
 +++
 
