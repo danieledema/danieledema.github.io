@@ -2,7 +2,7 @@
 date = '2023-11-26T12:07:04Z'
 draft = false
 title = 'What You See Is What You Get: Experience Ranking with Deep Neural Dataset-to-Dataset Similarity for Topological Localisation'
-tags = ["conference", "graph", "explainability", "registration", "pointcloud"]
+tags = ["conference", "representation", "localisation"]
 +++
 
 ### Abstract
