@@ -2,7 +2,7 @@
 date = '2024-10-14T12:07:04Z'
 draft = false
 title = 'NeuralFloors: Conditional street-level scene generation from BEV semantic maps via Neural Fields'
-tags = ["journal", "nerf", "generative"]
+tags = ["conference", "nerf", "generative"]
 +++
 
 ### Abstract
