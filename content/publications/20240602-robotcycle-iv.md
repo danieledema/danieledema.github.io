@@ -23,7 +23,7 @@ Dataset: TBD
 ### Bibtex 
 
 ``` bibtex
-@INPROCEEDINGS{10588375,
+@INPROCEEDINGS{panagiotaki2024,
   author={Panagiotaki, Efimia and Reinmund, Tyler and Mouton, Stephan and Pitt, Luke and Shanthini, Arundathi Shaji and Tubby, Wayne and Towlson, Matthew and Sze, Samuel and Liu, Brian and Prahacs, Chris and De Martini, Daniele and Kunze, Lars},
   booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
   title={RobotCycle: Assessing Cycling Safety in Urban Environments}, 

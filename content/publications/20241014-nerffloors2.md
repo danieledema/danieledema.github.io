@@ -21,7 +21,7 @@ Paper: [https://ieeexplore.ieee.org/abstract/document/10802002](https://ieeexplo
 ### Bibtex 
 
 ``` bibtex
-@INPROCEEDINGS{10802002,
+@INPROCEEDINGS{musat2024,
   author={Muşat, Valentina and De Martini, Daniele and Gadd, Matthew and Newman, Paul},
   booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={NeuralFloors++: Consistent Street-Level Scene Generation From BEV Semantic Maps}, 
