@@ -1,7 +1,7 @@
 +++
 date = '2023-11-26T12:07:04Z'
 draft = false
-title = 'Robot-Relay:Building-Wide, Calibration-Less Visual Servoing with Learned Sensor Handover Networks'
+title = 'Robot-Relay: Building-Wide, Calibration-Less Visual Servoing with Learned Sensor Handover Networks'
 tags = ["conference", "graph", "inversion", "infrastructure"]
 +++
 
