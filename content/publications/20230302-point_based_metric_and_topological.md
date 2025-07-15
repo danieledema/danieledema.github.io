@@ -2,7 +2,7 @@
 date = '2023-03-02T12:07:04Z'
 draft = false
 title = 'Point-based Metric and Topological Localisation between Lidar and Overhead Imagery'
-tags = ["journal", "lidar", "radar", "localisation, "satellite"]
+tags = ["journal", "lidar", "radar", "localisation", "satellite"]
 +++
 
 ### Abstract
