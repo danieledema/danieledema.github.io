@@ -17,7 +17,7 @@ Finally, we tested our approach on resource-limited hardware for assessing compu
 ### Useful links
 Paper: [https://www.nature.com/articles/s41598-022-19437-5](https://www.nature.com/articles/s41598-022-19437-5)
 
-### Bibltex
+### Bibtex
 
 ```bibtex
 @article{ruuvzivcka2022ravaen,
