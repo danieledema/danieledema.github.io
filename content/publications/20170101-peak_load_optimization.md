@@ -1,5 +1,5 @@
 +++
-date = '2017-09-01T00:00:00Z'
+date = '2017-05-01T00:00:00Z'
 draft = false
 title = 'Peak load optimization through 2-dimensional packing and multi-processor real-time scheduling'
 tags = ["conference", "optimization", "scheduling"]
