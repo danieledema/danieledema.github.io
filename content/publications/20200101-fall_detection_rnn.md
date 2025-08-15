@@ -2,7 +2,7 @@
 date = '2019-09-22T12:00:00Z'
 draft = false
 title = "Online Fall Detection Using Recurrent Neural Networks on Smart Wearable Devices"
-tags = [journal, fall_detection, rnn, wearable]
+tags = ["journal", "fall_detection", "rnn", "wearable"]
 +++
 
 ### Abstract
@@ -12,7 +12,7 @@ Unintentional falls can cause severe injuries and even death, especially if no i
 Paper: [IEEE](https://ieeexplore.ieee.org/document/9209145/)
 
 ### Bibtex
-```
+```bibtex
 @ARTICLE{9209145,
   author={Musci, Mirto and De Martini, Daniele and Blago, Nicola and Facchinetti, Tullio and Piastra, Marco},
   journal={IEEE Transactions on Emerging Topics in Computing}, 
