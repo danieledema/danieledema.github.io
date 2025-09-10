@@ -24,7 +24,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     {Name = "Contacts", URL = "/contacts/", HasChildren = false},
   ]
 
-  email_url = "mailto://daniele@robots.ox.ac.uk"
+  email_url = "mailto:daniele@robots.ox.ac.uk"
   linkedin_url = "https://www.linkedin.com/in/daniele-de-martini-b1716088/?originalSubdomain=it"
   github_url = "https://github.com/danieledema"
   x_url = "https://x.com/d_d_martini"
