@@ -21,6 +21,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     {Name = "Home", URL = "/myself/", HasChildren = false},
     {Name = "Research", URL = "/research/"},
     {Name = "Publications", URL = "/publications/", Limit = 3, hasChildren = true},
+    {Name = "Resume", URL = "/resume.pdf"},
     {Name = "Contacts", URL = "/contacts/", HasChildren = false},
   ]
 
