@@ -20,3 +20,5 @@ Another key aspect of my work examines the interaction between robotics and infr
 I joined MRG as a Postdoctoral Research Assistant in 2018 after a DPhil in Engineering Science at the [Università degli Studi di Pavia](http://www-3.unipv.it/ingserv/en/index.php) under the supervision of [Prof. Tullio Facchinetti](https://robot.unipv.it/toolleeo/).
 During my doctoral studies, I investigated the application of real-time scheduling algorithms to energy management in electromechanical devices, with the goal of reducing power consumption.
 Before that, I had my BSc at the Università degli Studi di Pavia and my MSc at the Politecnico di Torino, where I studied Mechanical and Mechatronics Engineering, respectively.
+
+You can find my full resume [here](/resume.pdf).
