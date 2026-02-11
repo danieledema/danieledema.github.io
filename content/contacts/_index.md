@@ -16,7 +16,7 @@ If you are inquiring about a visiting MSc/PhD/PDRA position, please include the 
 My office is located within the [Oxford e-Research Centre](https://oerc.ox.ac.uk/), on the first floor.
 
 <iframe
-  src="https://www.google.co.uk/maps/place/Oxford+e-Research+Centre/@51.7597496,-1.2608358,17z/data=!3m1!4b1!4m6!3m5!1s0x4876c6a875a1a275:0xf306076fc61647d1!8m2!3d51.7597496!4d-1.2582609!16s%2Fg%2F11bw7d87h0?hl=en&entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.5391809957873!2d-1.2608358221671825!3d51.759749571871865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a875a1a275%3A0xf306076fc61647d1!2sOxford%20e-Research%20Centre!5e0!3m2!1sen!2suk!4v1770821906937!5m2!1sen!2suk"
   width="600"
   height="450"
   style="border:0;"
