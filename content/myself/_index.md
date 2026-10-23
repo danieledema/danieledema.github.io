@@ -3,6 +3,8 @@ date = '2024-11-01T12:07:04Z'
 draft = false
 layout = 'redirect'
 title = 'About'
+headline = 'Robots and intelligent environments'
+intro = 'I study how robots can perceive, navigate and adapt, and how sensing and computation in their surroundings can support their autonomy.'
 redirect_to = '/'
 outputs = ['HTML']
 
@@ -10,28 +12,26 @@ outputs = ['HTML']
   list = 'never'
 +++
 
-I am a Associate Professor in Mobile Robotics at the [Oxford Robotics Institute (ORI)](https://ori.ox.ac.uk/) and the [Oxford e-Research Centre](https://oerc.ox.ac.uk/).
-I co-lead the {{< mrg-link text="Mobile Robotics Group (MRG)" >}} with [Professor Paul Newman](https://ori.ox.ac.uk/people/paul-newman/).
-I am also a [Tutorial Fellow](https://www.keble.ox.ac.uk/people/daniele-de-martini/) in Engineering Science at Keble College.
-
-{{< mrg-callout >}}
+I am an Associate Professor in Mobile Robotics at the University of Oxford, based at the [Oxford Robotics Institute (ORI)](https://ori.ox.ac.uk/) and the [Oxford e-Research Centre](https://oerc.ox.ac.uk/).
+I co-lead the {{< mrg-link text="Mobile Robotics Group (MRG)" >}} with [Professor Paul Newman](https://ori.ox.ac.uk/people/paul-newman/) and am a [Tutorial Fellow](https://www.keble.ox.ac.uk/people/daniele-de-martini/) in Engineering Science at Keble College.
 
 ## Research interests
 
-I have a passion for cyber-physical systems, among which robots shine, and love working on making robots autonomously operate from the ground up.
-In doing so, I believe more and more that learning and adaptation are paramount for robot autonomy.
-I hope that my work will enable robots to be widely adopted in a variety of applications, from industrial and business to domestic environments, helping the people in their day-to-day tasks.
+A central focus of my work is **site-driven robotics**: designing robots together with the environments in which they operate.
+We investigate how existing cameras, communication networks and shared computing can support robot perception, navigation and control.
+The aim is to make autonomous systems easier to deploy and operate in existing buildings and infrastructure.
 
-For this reason, my research combines robotics and artificial intelligence to design autonomous systems capable of perception, mapping, localisation, and adaptive decision-making.
-By exploiting multiple sensing modalities -- from vision to lidar to radar -- my group explores how robots can reliably navigate and interpret the world, even in challenging or extreme conditions, and deploys robots in environments ranging from urban Oxford to the Scottish Highlands.
-Another key aspect of my work examines the interaction between robotics and infrastructure, enabling the dynamic sharing of sensing and computing resources between robots and smart environments to support safe and scalable autonomy.
+Alongside this, I work on perception, mapping and localisation using vision, lidar and radar.
+I am interested in how robots can learn from experience, adapt to changing conditions and recognise the limits of what they know.
 
-See [selected work](/selected-work/) for a few examples, or {{< mrg-link path="research/" text="explore current research at MRG" >}}.
+With colleagues and students in the Mobile Robotics Group, I connect these ideas to experiments and field deployments, from warehouses and urban roads to off-road environments in the Scottish Highlands.
+
+Explore my [selected work](/selected-work/) for examples, or browse the [full publication list](/publications/).
+
+{{< mrg-callout >}}
 
 ## Background
 
-I joined MRG as a Postdoctoral Research Assistant in 2018 after a DPhil in Engineering Science at the [Università degli Studi di Pavia](http://www-3.unipv.it/ingserv/en/index.php) under the supervision of [Prof. Tullio Facchinetti](https://robot.unipv.it/toolleeo/).
-During my doctoral studies, I investigated the application of real-time scheduling algorithms to energy management in electromechanical devices, with the goal of reducing power consumption.
-Before that, I had my BSc at the Università degli Studi di Pavia and my MSc at the Politecnico di Torino, where I studied Mechanical and Mechatronics Engineering, respectively.
-
-You can find my full resume [here](/resume.pdf).
+I joined the Mobile Robotics Group at Oxford in 2018.
+My background spans mechanical and mechatronics engineering, with a PhD from the University of Pavia.
+My doctoral research explored real-time scheduling and energy management in cyber-physical systems.

@@ -3,5 +3,8 @@
     <img src="{{ .Site.Params.brand_image | relURL }}" alt="Daniele De Martini" width="112" height="112">
   </a>
   <p class="site-name"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.brand }}</a></p>
-  <p class="lead">{{ .Site.Params.description }}</p>
+  <p class="lead">
+    <span>{{ .Site.Params.role }}</span>
+    <span>{{ .Site.Params.institution }}</span>
+  </p>
 </div>

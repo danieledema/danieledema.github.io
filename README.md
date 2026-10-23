@@ -7,7 +7,9 @@ owns current project descriptions, team information, news and application guidan
 ## Content ownership
 
 - Edit the biography in `content/myself/_index.md`. It is rendered on the homepage;
-  `/myself/` redirects there.
+  `/myself/` redirects there. Its `headline` and `intro` fields appear above the
+  profile shortcuts. The sidebar role and institution are set in `hugo.toml`;
+  `params.description` supplies the homepage's search and sharing description.
 - Edit the short highlights in `content/selected-work/_index.md`. Link to the main
   project pages rather than copying their content. Publication links resolve from
   the existing archive and a missing reference fails the build.

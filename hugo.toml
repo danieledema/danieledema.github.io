@@ -8,7 +8,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
   unsafe = true
 
 [params]
-  description = 'Roboticist, Machine Learning Engineer, and Researcher'
+  description = 'Research in site-driven robotics, perception and autonomy at the University of Oxford.'
+  role = 'Associate Professor in Mobile Robotics'
+  institution = 'University of Oxford'
   brand = 'Daniele De Martini'
   brand_image = "/images/profile.jpg"    # path to the image shown in the sidebar
   favicon = "/images/favicon.png"
