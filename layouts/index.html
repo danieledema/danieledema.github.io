@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ with .Site.GetPage "/myself" }}
+    <article class="profile">
+      <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        <nav class="profile-links" aria-label="Profile resources">
+          <a href="{{ "resume.pdf" | relURL }}">CV <span class="link-detail">(PDF)</span></a>
+          <a href="{{ .Site.Params.scholar_url }}">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a href="{{ "contacts/" | relURL }}">Contact</a>
+        </nav>
+      </header>
+      {{ .Content }}
+    </article>
+  {{ end }}
+{{ end }}

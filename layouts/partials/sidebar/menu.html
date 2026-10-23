@@ -1,0 +1,14 @@
+<nav aria-label="Main navigation">
+  <ul class="sidebar-nav">
+    {{ range .Site.Params.menu }}
+      {{ $url := .URL }}
+      {{ if .Group }}{{ $url = $.Site.Params.group_url }}{{ end }}
+      {{ $active := or (and $.IsHome (eq $url "/")) (and (not $.IsHome) (eq $.RelPermalink $url)) }}
+      <li class="heading{{ if .Group }} group-nav{{ end }}">
+        <a href="{{ $url }}"{{ if $active }} aria-current="page"{{ end }}>
+          {{ .Name }}{{ if .Group }} <span aria-hidden="true">↗</span>{{ end }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>

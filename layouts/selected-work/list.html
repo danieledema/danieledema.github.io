@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <article class="selected-work">
+    <header class="page-header"><h1>{{ .Title }}</h1></header>
+    {{ .Content }}
+    <div class="work-list">
+      {{ range .Params.work }}
+        {{ $url := .url }}
+        {{ with .group_path }}{{ $url = printf "%s%s" $.Site.Params.group_url . }}{{ end }}
+        <section class="work-entry">
+          <p class="work-topic">{{ .topic }}</p>
+          <h2><a href="{{ $url }}">{{ .name }} <span aria-hidden="true">↗</span></a></h2>
+          <p>{{ .summary }}</p>
+          <div class="work-links">
+            <a href="{{ $url }}">{{ .link_label }} <span aria-hidden="true">↗</span></a>
+            {{ with $.Site.GetPage .publication }}
+              <a href="{{ .RelPermalink }}">Publication</a>
+            {{ else }}
+              {{ errorf "Selected work references a missing publication: %s" .publication }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </div>
+    {{ partial "group-callout.html" . }}
+  </article>
+{{ end }}

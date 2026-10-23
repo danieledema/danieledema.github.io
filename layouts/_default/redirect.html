@@ -1,0 +1,18 @@
+{{- $destination := .Params.redirect_to | absURL -}}
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} · {{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ $destination }}">
+    <meta name="robots" content="noindex,follow">
+    <meta http-equiv="refresh" content="0; url={{ $destination }}">
+  </head>
+  <body>
+    <main>
+      <h1>{{ .Title }}</h1>
+      <p>This page has moved. <a href="{{ $destination }}">Continue to {{ .Title }}</a>.</p>
+    </main>
+  </body>
+</html>

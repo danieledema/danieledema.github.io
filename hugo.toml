@@ -16,12 +16,18 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
   front_page_content = ["myself"]
 
   hideToc = true
+  link_color = '#176b9e'
+  link_color_dark = '#80c3ed'
+
+  group_url = 'https://ori-mrg.github.io/'
+  scholar_url = 'https://scholar.google.com/citations?hl=en&user=F7QcGh0AAAAJ'
 
   menu = [
-    {Name = "Home", URL = "/myself/", HasChildren = false},
-    {Name = "Research", URL = "/research/"},
-    {Name = "Publications", URL = "/publications/", Limit = 3, hasChildren = true},
-    {Name = "Contacts", URL = "/contacts/", HasChildren = false},
+    {Name = "About", URL = "/"},
+    {Name = "Selected work", URL = "/selected-work/"},
+    {Name = "Publications", URL = "/publications/"},
+    {Name = "Contact", URL = "/contacts/"},
+    {Name = "Mobile Robotics Group", Group = true},
   ]
 
   email_url = "mailto:daniele@robots.ox.ac.uk"
