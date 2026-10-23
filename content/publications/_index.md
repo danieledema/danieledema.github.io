@@ -4,5 +4,5 @@ draft = false
 title = 'Publications'
 +++
 
-Here is a list of my recent publication grouped by date.
+Journal articles, conference papers, workshop contributions, and online preprints, grouped by date.
 You can also find them on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=F7QcGh0AAAAJ) page.

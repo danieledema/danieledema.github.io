@@ -5,6 +5,8 @@ title = 'NeuralFloors: Conditional Street-Level Scene Generation From BEV Semant
 tags = ["journal", "nerf", "generative"]
 +++
 
+Also presented at ICRA@40, 2024.
+
 ### Abstract
 Semantic Bird's Eye View (BEV) representations are a popular format, being easily interpretable and editable.
 However, synthesising ground-view images from BEVs is a difficult task as the system would need to learn both the mapping from BEV to Front View (FV) structure as well as to synthesise highly photo-realistic imagery, thus having to simultaneously consider both the geometry and appearance of the scene.

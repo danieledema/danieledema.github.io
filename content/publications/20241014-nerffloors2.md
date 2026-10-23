@@ -5,6 +5,8 @@ title = 'NeuralFloors++: Consistent Street-Level Scene Generation From BEV Seman
 tags = ["conference", "nerf", "generative"]
 +++
 
+Also presented at the UK AI Research Symposium, 2025.
+
 ### Abstract
 Learning autonomous driving capabilities requires diverse and realistic training data.
 This has led to exploring generative techniques as an alternative to real-world data collection.

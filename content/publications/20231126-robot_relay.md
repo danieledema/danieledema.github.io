@@ -14,6 +14,8 @@ In this, we memorise, from simultaneous robot detections in the tracker thread, 
 We demonstrate our system with repeated autonomous traversals of workspaces connected by a network of six cameras across a productive office environment
 
 ### Useful links
+Journal version: [Autonomous Robots (2026)](/publications/20251128-robot_relay_auro/)
+
 Paper: [https://link.springer.com/chapter/10.1007/978-3-031-63596-0_12](https://link.springer.com/chapter/10.1007/978-3-031-63596-0_12)
 
 ### Bibtex 

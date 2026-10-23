@@ -5,6 +5,8 @@ title = 'RobotCycle: Assessing Cycling Safety in Urban Environments'
 tags = ["conference", "dataset"]
 +++
 
+Also presented at the ICRA 2024 Workshop on Field Robotics.
+
 ### Abstract
 This paper introduces RobotCycle, a novel ongoing project that leverages Autonomous Vehicle (AV) research to investigate how road infrastructure influences cyclist behaviour and safety during real-world journeys.
 The project’s requirements were defined in collaboration with key stakeholders, including city planners, cyclists, and policymakers, informing the design of risk and safety metrics and the data collection criteria.
