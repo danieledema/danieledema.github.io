@@ -7,8 +7,8 @@ tags = ["conference", "graph"]
 
 Finalist, IEEE-RAS Outstanding Women in Robotics & Automation (WiRA) Paper Awards at IROS 2025.
 
-### Summary
-GraphSCENE generates traffic scenarios from user-specified actions, agents and criticality requirements. A temporal graph model learns interactions subject to semantic constraints, and the resulting scene graphs are instantiated in simulation to test autonomous driving systems.
+### Abstract
+Testing and validating Autonomous Vehicle (AV) performance in safety-critical and diverse scenarios is crucial before real-world deployment. However, manually creating such scenarios in simulation remains a significant and time-consuming challenge. This work introduces a novel method that generates dynamic temporal scene graphs corresponding to diverse traffic scenarios, on-demand, tailored to user-defined preferences, such as AV actions, sets of dynamic agents, and criticality levels. A temporal Graph Neural Network (GNN) model learns to predict relationships between ego-vehicle, agents, and static structures, guided by real-world spatiotemporal interaction patterns and constrained by an ontology that restricts predictions to semantically valid links. Our model consistently outperforms the baselines in accurately generating links corresponding to the requested scenarios. We render the predicted scenarios in simulation to further demonstrate their effectiveness as testing environments for AV agents.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/iros60139.2025.11246040](https://doi.org/10.1109/iros60139.2025.11246040)

@@ -5,8 +5,8 @@ title = "Contrastive Learning for Unsupervised Radar Place Recognition"
 tags = ["conference", "radar", "localisation"]
 +++
 
-### Summary
-This method learns radar sequence embeddings without place labels by exploiting the temporal continuity of vehicle observations. Contrastive learning produces representations for robust place recognition, including revisits with substantial orientation changes.
+### Abstract
+We learn, in an unsupervised way, an embedding from sequences of radar images that is suitable for solving the place recognition problem with complex radar data. Our method is based on invariant instance feature learning but is tailored for the task of re-localisation by exploiting for data augmentation the temporal successivity of data as collected by a mobile platform moving through the scene smoothly. We experiment across two prominent urban radar datasets totalling over 400 km of driving and show that we achieve a new radar place recognition state-of-the-art. Specifically, the proposed system proves correct for 98.38% of the queries that it is presented with over a challenging re-localisation sequence, using only the single nearest neighbour in the learned metric space. We also find that our learned model shows better understanding of out-of-lane loop closures at arbitrary orientation than non-learned radar scan descriptors.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/icar53236.2021.9659335](https://doi.org/10.1109/icar53236.2021.9659335)

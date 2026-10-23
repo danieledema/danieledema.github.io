@@ -6,6 +6,9 @@ tags = ["workshop"]
 # Only the publication month is known; the first day is used for chronological sorting.
 +++
 
+### Abstract
+The institutional repository explicitly lists no abstract, and the deposited poster is restricted. The summary below is AI-generated.
+
 ### Summary
 This late-breaking-results poster explores the joint design of sampling, communication and prediction for keeping physical and digital robot states synchronised.
 

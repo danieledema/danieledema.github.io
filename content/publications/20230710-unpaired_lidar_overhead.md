@@ -5,8 +5,8 @@ title = "Self-Supervised Lidar Place Recognition in Overhead Imagery Using Unpai
 tags = ["conference", "localisation", "satellite"]
 +++
 
-### Summary
-This approach learns lidar place recognition against overhead imagery without paired training observations. It first builds synthetic lidar representations from aerial images, then discovers cross-modal pseudo-pairs to train a common embedding for recognition across sensing modalities.
+### Abstract
+As much as place recognition is crucial for navigation, mapping and collecting training ground truth, namely sensor data pairs across different locations, are costly and time-consuming. This paper tackles these by learning lidar place recognition on public overhead imagery and in a self-supervised fashion, with no need for paired lidar and overhead imagery data. We learn the cross-modal data comparison between lidar and overhead imagery with a multi-step framework. First, images are transformed into synthetic lidar data and a latent projection is learned. Next, we discover pseudo pairs of lidar and satellite data from unpaired and asynchronous sequences, and use them for training a final embedding space projection in a cross-modality place recognition framework. We train and test our approach on real data from various environments and show performances approaching a supervised method using paired data.
 
 ### Useful links
 Paper: [https://doi.org/10.15607/rss.2023.xix.098](https://doi.org/10.15607/rss.2023.xix.098)

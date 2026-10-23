@@ -5,8 +5,8 @@ title = "Introspection in Learned Semantic Scene Graph Localisation"
 tags = ["workshop", "localisation", "graph"]
 +++
 
-### Summary
-This study examines which semantic landmarks drive a learned scene-graph localisation model. Attribution methods, map perturbations and semantic ablations test whether the model relies on distinctive structure and remains robust to environmental clutter.
+### Abstract
+This work investigates how semantics influence localisation performance and robustness in a learned self-supervised, contrastive semantic localisation framework. After training a localisation network on both original and perturbed maps, we conduct a thorough post-hoc introspection analysis to probe whether the model filters environmental noise and prioritises distinctive landmarks over routine clutter. We validate various interpretability methods and present a comparative reliability analysis. Integrated gradients and Attention Weights consistently emerge as the most reliable probes of learned behaviour. A semantic class ablation further reveals an implicit weighting in which frequent objects are often down-weighted. Overall, the results indicate that the model learns noise-robust, semantically salient relations about place definition, thereby enabling explainable registration under challenging visual and structural variations.
 
 ### Useful links
 Preprint: [https://arxiv.org/abs/2510.07053](https://arxiv.org/abs/2510.07053)

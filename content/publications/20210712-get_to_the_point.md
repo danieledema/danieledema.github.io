@@ -5,8 +5,8 @@ title = "Get to the Point: Learning Lidar Place Recognition and Metric Localisat
 tags = ["conference", "localisation", "satellite"]
 +++
 
-### Summary
-This method learns to recognise places and estimate a lidar-equipped robot’s pose using overhead imagery. Transforming aerial images into point representations enables comparison and registration against ground-level lidar without constructing a prior lidar map.
+### Abstract
+This paper is about localising a robot in overhead images using lidar. Specifically; we show how to solve both place recognition and metric localisation of a lidar using only publicly available overhead imagery as a map proxy. This is in contrast to current approaches that rely on prior sensor maps. To handle the drastic modality difference (overhead image vs. on the ground lidar); our method learns a representation that purposely and suitably transforms a given overhead image into a collection of 2D points; allowing for direct comparison against lidar scans. After both modalities are expressed as points; point-based methods can then be leveraged to learn the registration and place recognition task. Our method is the first to learn the place recognition of a lidar using only overhead imagery; and outperforms prior work for metric localisation with large initial pose offsets.
 
 ### Useful links
 Paper: [https://doi.org/10.15607/rss.2021.xvii.003](https://doi.org/10.15607/rss.2021.xvii.003)

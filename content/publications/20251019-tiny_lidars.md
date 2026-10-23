@@ -5,8 +5,8 @@ title = "Tiny LiDARs for Manipulator Self-Awareness: Sensor Characterization and
 tags = ["conference", "localisation", "uncertainty"]
 +++
 
-### Summary
-This work characterises miniature time-of-flight lidar sensors and models how measurement uncertainty changes with target distance and orientation. A probabilistic sensor model improves particle-filter object localisation compared with simpler treatments of the same coarse point clouds.
+### Abstract
+For several tasks, ranging from manipulation to inspection, it is beneficial for robots to localize a target object in their surroundings. In this paper, we propose an approach that utilizes coarse point clouds obtained from miniaturized VL53L5CX Time-of-Flight (ToF) sensors (tiny LiDARs) to localize a target object in the robot's workspace. We first conduct an experimental campaign to calibrate the dependency of sensor readings on relative range and orientation to targets. We then propose a probabilistic sensor model, which we validate in an object pose estimation task using a Particle Filter (PF). The results show that the proposed sensor model improves the performance of the localization of the target object with respect to two baselines: one that assumes measurements are free from uncertainty and one in which the confidence is provided by the sensor datasheet.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/iros60139.2025.11246575](https://doi.org/10.1109/iros60139.2025.11246575)

@@ -5,8 +5,8 @@ title = "Self-Supervised Localisation between Range Sensors and Overhead Imagery
 tags = ["conference", "localisation", "satellite"]
 +++
 
-### Summary
-This self-supervised method estimates vehicle pose by comparing range-sensor observations with overhead imagery. It learns the cross-modal relationship without precisely aligned supervision and is evaluated across different real-world sensors and environments.
+### Abstract
+Publicly available satellite imagery can be an ubiquitous, cheap, and powerful tool for vehicle localisation when a prior sensor map is unavailable. However, satellite images are not directly comparable to data from ground range sensors because of their starkly different modalities. We present a learned metric localisation method that not only handles the modality difference, but is cheap to train, learning in a self-supervised fashion without metrically accurate ground truth. By evaluating across multiple real-world datasets, we demonstrate the robustness and versatility of our method for various sensor configurations. We pay particular attention to the use of millimetre wave radar, which, owing to its complex interaction with the scene and its immunity to weather and lighting, makes for a compelling and valuable use case.
 
 ### Useful links
 Paper: [https://doi.org/10.15607/rss.2020.xvi.057](https://doi.org/10.15607/rss.2020.xvi.057)

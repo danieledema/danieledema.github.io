@@ -5,8 +5,8 @@ title = "Depth-SIMS: Semi-Parametric Image and Depth Synthesis"
 tags = ["conference", "generative"]
 +++
 
-### Summary
-Depth-SIMS combines compositing with neural inpainting to generate realistic images alongside aligned semantic and depth information. The synthetic outputs are evaluated both for visual quality and as training data for segmentation and depth-completion models.
+### Abstract
+In this paper we present a compositing image synthesis method that generates RGB canvases with well aligned segmentation maps and sparse depth maps, coupled with an in-painting network that transforms the RGB canvases into high quality RGB images and the sparse depth maps into pixel-wise dense depth maps. We benchmark our method in terms of structural alignment and image quality, showing an increase in mIoU over SOTA by 3.7 percentage points and a highly competitive FID. Furthermore, we analyse the quality of the generated data as training data for semantic segmentation and depth completion, and show that our approach is more suited for this purpose than other methods.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/icra46639.2022.9811569](https://doi.org/10.1109/icra46639.2022.9811569)

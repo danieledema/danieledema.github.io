@@ -6,8 +6,8 @@ tags = ["conference"]
 # Only the publication month is known; the first day is used for chronological sorting.
 +++
 
-### Summary
-This distributed display system uses computer vision to discover the positions of individually addressable LEDs after installation. Components communicate through MQTT, allowing loosely placed LED strips to be configured automatically as pixels for displaying images.
+### Abstract
+In the latest years, Light Emitting Diode (LED)-based lighting systems have revolutionarized architectural and design applications. The setup of a complex lighting system is a typically time-consuming task due to the number of manual operations that can it requires. In this paper, we introduce a LED-display system that aims at an automatic self-configuration while allowing a simple and effortless deployment. The proposed system is based on the careless deployment (in terms of positioning) of LED strips where each LED can be individually controlled and enlightened with the desired color. Since the position of every LED is not known during the deployment, we devised an automatic configuration procedure based on computer vision to determine the position of each LED, so that the LED can act as pixels to display a generic image. The different components of the system interact by exchanging messages with the Message Queue Telemetry Transport (MQTT) protocol. An example of application is provided that shows simple images displayed using the proposed display system.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/etfa46521.2020.9212084](https://doi.org/10.1109/etfa46521.2020.9212084)

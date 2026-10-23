@@ -5,8 +5,8 @@ title = "Fool Me Once: Robust Selective Segmentation via Out-of-Distribution Det
 tags = ["conference", "uncertainty"]
 +++
 
-### Summary
-This segmentation system jointly identifies scene classes and pixels that differ from its training distribution. Contrastive learning helps separate familiar from unfamiliar content, allowing unreliable regions to be rejected instead of confidently misclassified.
+### Abstract
+In this work, we train a network to simultaneously perform segmentation and pixel-wise Out-of-Distribution (OoD) detection, such that the segmentation of unknown regions of scenes can be rejected. This is made possible by leveraging an OoD dataset with a novel contrastive objective and data augmentation scheme. By combining data including unknown classes in the training data, a more robust feature representation can be learned with known classes represented distinctly from those unknown. When presented with unknown classes or conditions, many current approaches for segmentation frequently exhibit high confidence in their inaccurate segmentations and cannot be trusted in many operational environments. We validate our system on a real-world dataset of unusual driving scenes, and show that by selectively segmenting scenes based on what is predicted as OoD, we can increase the segmentation accuracy by an IoU of 0.2 with respect to alternative techniques.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/icra48506.2021.9561165](https://doi.org/10.1109/icra48506.2021.9561165)

@@ -5,6 +5,9 @@ title = "Listening closely to see far away: Radar-based Terrain Classification f
 tags = ["workshop", "radar"]
 +++
 
+### Abstract
+The linked publication record lists a conference abstract, but does not provide its text. An author-provided abstract could not be located online.
+
 ### Summary
 This conference abstract explores radar-based terrain classification using information from auditory signals.
 

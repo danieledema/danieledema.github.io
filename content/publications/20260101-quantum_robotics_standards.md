@@ -6,6 +6,9 @@ tags = ["journal"]
 # Only the publication year is known; the first day is used for chronological sorting.
 +++
 
+### Abstract
+An abstract could not be located in a public source. Publication details are awaiting verification.
+
 ### Bibtex
 
 ``` bibtex

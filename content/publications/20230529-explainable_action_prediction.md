@@ -5,8 +5,8 @@ title = "Explainable Action Prediction through Self-Supervision on Scene Graphs"
 tags = ["conference", "graph"]
 +++
 
-### Summary
-This work predicts future driving actions using scene graphs and self-supervised representation learning. Spatial and temporal attention identify relevant objects and interactions, making the predictions easier to inspect while addressing limited and imbalanced training data.
+### Abstract
+This work explores scene graphs as a distilled representation of high-level information for autonomous driving, applied to future driver-action prediction. Given the scarcity and strong imbalance of data samples, we propose a self-supervision pipeline to infer representative and well-separated embeddings. Key aspects are interpretability and explainability; as such, we embed in our architecture attention mechanisms that can create spatial and temporal heatmaps on the scene graphs. We evaluate our system on the ROAD dataset against a fully-supervised approach, showing the superiority of our training regime.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/icra48891.2023.10161132](https://doi.org/10.1109/icra48891.2023.10161132)

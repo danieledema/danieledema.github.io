@@ -5,6 +5,9 @@ title = "Keyframe Selection, Communication, and Prediction for Teleoperated Driv
 tags = ["workshop"]
 +++
 
+### Abstract
+The institutional repository explicitly lists no abstract. The linked item is a one-page poster without a separate abstract section; the summary below is AI-generated.
+
 ### Summary
 This poster proposes transmitting selected keyframes instead of every video frame in teleoperated driving. A predictor reconstructs the intervening observations to address bandwidth and delay, with preliminary evaluation in CARLA.
 

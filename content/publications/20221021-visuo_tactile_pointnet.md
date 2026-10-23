@@ -5,8 +5,8 @@ title = "Visuo-Tactile Recognition of Partial Point Clouds Using PointNet and Cu
 tags = ["journal"]
 +++
 
-### Summary
-A PointNet classifier learns object recognition from visual point clouds and transfers to incomplete tactile observations. Curriculum learning progressively reduces the training clouds, helping the classifier recognise objects from sparse touch measurements while reducing the need to collect tactile training data.
+### Abstract
+This paper is about recognising hand-held objects from incomplete tactile observations with a classifier trained only on visual representations. Our method is based on the Deep Learning (DL) architecture PointNet and a Curriculum Learning (CL) technique for fostering the learning of descriptors robust to partial representations of objects. The learning procedure gradually decomposes the visual point clouds to synthesise sparser and sparser input data for the model. In this manner, we were able to use one-shot learning, using the decomposed visual point clouds as augmentations, and reduce the data-collection requirement for training. The approach allows for a gradual improvement of prediction accuracy as more tactile data become available. We evaluated the effectiveness of the curriculum strategy on our generated visual and tactile datasets, experimentally showing that the proposed method improved the recognition accuracy by up to 23% on partial tactile data and boosted accuracy on full tactile data from 93% to 100%. The curriculumtrained network recognised objects with an accuracy of 80% using only 20% of the tactile data representing the objects, increasing to 100% accuracy on clouds containing at least 60% of the points.
 
 ### Useful links
 Paper: [https://doi.org/10.1109/mra.2022.3212316](https://doi.org/10.1109/mra.2022.3212316)

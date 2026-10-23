@@ -5,6 +5,9 @@ title = "Inferring Terrain Stability from Proprioceptive Data of a Quadruped Rob
 tags = ["workshop"]
 +++
 
+### Abstract
+The linked workshop poster has no separate author-provided abstract. The summary below is AI-generated from the poster.
+
 ### Summary
 This workshop contribution investigates how a quadruped robot’s proprioceptive measurements can be used to infer terrain stability. It examines information available from the robot’s own motion and contact with the ground.
 

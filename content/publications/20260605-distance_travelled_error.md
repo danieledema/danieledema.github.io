@@ -5,6 +5,9 @@ title = "A Novel Trajectory Evaluation Metric: Distance Travelled Error (DTE)"
 tags = ["workshop"]
 +++
 
+### Abstract
+The linked workshop poster has no separate author-provided abstract. The summary below is AI-generated from the poster.
+
 ### Summary
 This workshop contribution introduces Distance Travelled Error as a trajectory-evaluation metric. It considers how to compare estimated motion using distance travelled as a reference for error assessment.
 

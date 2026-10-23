@@ -5,8 +5,8 @@ title = "Watching Grass Grow: Long-term Visual Navigation and Mission Planning f
 tags = ["workshop", "localisation"]
 +++
 
-### Summary
-This deployment study explores autonomous navigation and mission planning for biodiversity monitoring in changing grassland. Repeated surveys over six weeks reveal practical localisation challenges caused by vegetation growth, appearance changes and visually similar terrain.
+### Abstract
+We describe a challenging robotics deployment in a complex ecosystem to monitor a rich plant community. The study site is dominated by dynamic grassland vegetation and is thus visually ambiguous and liable to drastic appearance change over the course of a day and especially through the growing season. This dynamism and complexity in appearance seriously impact the stability of the robotics platform, as localisation is a foundational part of that control loop, and so routes must be carefully taught and retaught until autonomy is robust and repeatable. Our system is demonstrated over a 6-week period monitoring the response of grass species to experimental climate change manipulations. We also discuss the applicability of our pipeline to monitor biodiversity in other complex natural settings.
 
 ### Useful links
 Preprint: [https://arxiv.org/abs/2404.10446](https://arxiv.org/abs/2404.10446)

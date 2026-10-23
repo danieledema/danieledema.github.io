@@ -5,8 +5,8 @@ title = "Fixed External Cameras as Common Prior Maps for Active 3D Scene Graph G
 tags = ["workshop", "graph", "infrastructure"]
 +++
 
-### Summary
-This work uses fixed external camera images as prior maps for active 3D scene-graph construction. A shared RGB-only pipeline combines infrastructure and robot views, giving exploration an initial semantic and geometric context before the robot starts moving.
+### Abstract
+Commonly available prior information, such as BIM models, floor plans, and remote sensing images, can provide valuable geometric and semantic context for autonomous robotic systems. In this paper, we treat observations from fixed external RGB cameras as Common Prior Maps (CPMs): wide-field views of the environment that initialize a semantic and geometric scene prior before any robot motion begins. We present an RGB-only framework for active, incremental 3D scene graph (3DSG) generation that seamlessly fuses observations from both onboard robot cameras and fixed external cameras within a single hardware-agnostic pipeline. By relying solely on RGB observations processed by a feed-forward 3D reconstruction model, the system treats all cameras - onboard or external - identically, requiring no hardware modifications. A graph-based active semantic exploration framework then directly leverages the partial scene graph to guide the robot toward regions of high semantic uncertainty, progressively completing and refining the prior. Experiments demonstrate that bootstrapping the scene graph with even a single external camera increases initial object recall by up to +79%, and that the richer context of the prior significantly improves the efficiency of subsequent active exploration.
 
 ### Useful links
 Preprint: [https://arxiv.org/abs/2605.18184](https://arxiv.org/abs/2605.18184)
